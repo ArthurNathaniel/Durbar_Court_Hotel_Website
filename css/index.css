@@ -1,0 +1,45 @@
+ .swiper {
+     width: 100%;
+     height: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #f2f4f6;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .hero-slide {
+     height: 600px;
+ }
+
+ .swiper-text {
+     position: absolute;
+     padding: 0 10%;
+     width: 100%;
+     text-align: center;
+ }
+
+ .swiper-text h1 {
+     font-size: 65px;
+     font-family: 'Playfair Display', serif;
+     color: #fff;
+ }
+
+ .swiper-text p{
+    width: 100%;
+    padding: 0 20%;
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+ }
